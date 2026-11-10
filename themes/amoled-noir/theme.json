@@ -1,11 +1,33 @@
 {
   "id": "amoledNoir",
   "name": "AMOLED Noir",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "eleve",
   "description": "Pure black AMOLED dark theme with a warm cream light mode and WCAG AA accents.",
-  "dark": {},
-  "light": {},
+  "dark": {
+    "accents": {
+      "red": "#FF5C5C",
+      "orange": "#FF8A3D",
+      "yellow": "#FFE14D",
+      "green": "#4ADE80",
+      "teal": "#2DD4BF",
+      "blue": "#5FA8FF",
+      "purple": "#B18CFF",
+      "pink": "#FF6AC1"
+    }
+  },
+  "light": {
+    "accents": {
+      "red": "#BD2424",
+      "orange": "#A84300",
+      "yellow": "#6E5A00",
+      "green": "#166A31",
+      "teal": "#0F6B60",
+      "blue": "#1F5FBF",
+      "purple": "#6D3FD0",
+      "pink": "#B0247A"
+    }
+  },
   "variants": {
     "type": "multi",
     "defaults": {
